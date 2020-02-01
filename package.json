@@ -8,14 +8,14 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/wix-incubator/monorepo-staged-precommit.git"
+    "url": "git+https://github.com/wix-incubator/wixstores-server-precommit.git"
   },
   "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/wix-incubator/monorepo-staged-precommit/issues"
+    "url": "https://github.com/wix-incubator/wixstores-server-precommit/issues"
   },
-  "homepage": "https://github.com/wix-incubator/monorepo-staged-precommit#readme",
+  "homepage": "https://github.com/wix-incubator/wixstores-server-precommit#readme",
   "dependencies": {
     "find-up": "^3.0.0"
   }
