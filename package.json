@@ -1,6 +1,6 @@
 {
   "name": "wixstores-server-precommit",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "Precommit check that commiting server files in master",
   "main": "index.js",
   "scripts": {
