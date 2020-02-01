@@ -7,12 +7,12 @@ then
 fi
 
 STAGED=\`git diff --name-only --cached\`
-SERVER_PATHS=("server/wix-ecommerce-server" "server/currency-converter"  "server/wix-ecommerce-server" "commons-server" "platform/addresses/server" "platform/coupons")
+SERVER_PATHS=($(<SERVER_FOLDERS))
 for staged in $STAGED; do
   for path in "\${SERVER_PATHS[@]}"; do
     if  [[ $staged == $path* ]] ;
     then
-        echo $staged
+        printf '"%s" cant be committed when on "master" branch, you may have forgotten to open a branch\n' $staged
         exit 1
     fi
   done
