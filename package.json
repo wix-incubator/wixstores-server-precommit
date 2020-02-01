@@ -1,6 +1,6 @@
 {
   "name": "wixstores-server-precommit",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Precommit check that commiting server files in master",
   "main": "index.js",
   "scripts": {
@@ -18,5 +18,8 @@
   "homepage": "https://github.com/wix-incubator/wixstores-server-precommit#readme",
   "dependencies": {
     "find-up": "^3.0.0"
+  },
+  "bin": {
+    "wixstores-server-precommit": "hook.js"
   }
 }
