@@ -1,0 +1,22 @@
+{
+  "name": "wixstores-server-precommit",
+  "version": "1.0.0",
+  "description": "Precommit check that commiting server files in master",
+  "main": "index.js",
+  "scripts": {
+    "hook": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/wix-incubator/monorepo-staged-precommit.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/wix-incubator/monorepo-staged-precommit/issues"
+  },
+  "homepage": "https://github.com/wix-incubator/monorepo-staged-precommit#readme",
+  "dependencies": {
+    "find-up": "^3.0.0"
+  }
+}
