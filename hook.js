@@ -1,5 +1,4 @@
-const arg = process.argv[2];
-switch (arg) {
+switch (process.argv[2]) {
     case 'hook':
         require('./');
         break;
