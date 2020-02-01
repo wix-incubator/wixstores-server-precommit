@@ -17,7 +17,6 @@ for staged in $STAGED; do
     fi
   done
 done
-exit 0
 # end ${fileHeader}`;
 }
 
